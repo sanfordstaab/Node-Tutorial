@@ -31,8 +31,16 @@ In the output you should see among other things the path to node.exe:
 ```
 C:\Program Files\nodejs\
 ```
+This tells you where node is installed.  Lets look at its installed modules:
+```sh
+dir C:\Program Files\nodejs\node_modules
+```
+What I see is:
+```
+ Directory of c:\Program Files\nodejs\node_modules
 
-
-[//]: # (link map)
-
-[nodejs]: http://nodejs.org
+12/10/2015  07:53 AM    <DIR>          .
+12/10/2015  07:53 AM    <DIR>          ..
+12/10/2015  07:53 AM    <DIR>          npm
+               0 File(s)              0 bytes
+```
